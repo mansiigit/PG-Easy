@@ -1,0 +1,64 @@
+
+body{
+        background-image: linear-gradient(
+            to bottom,
+              #d0d2cc 75%,
+              #3c4c24 25%
+        ) ;
+        height:100vh;
+    }
+    .container
+    {
+      width: 50%;
+      height: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    form{
+      background-color: white;
+      width: 600px;
+      height:55px;
+      display: flex;
+
+    }
+    form input
+    {
+      flex:1;
+      border:none;
+      outline:none;
+
+    }
+    form button{
+     background: #1a210e ;
+     padding:10px 50px;
+     border:none;
+     outline: none;
+     color:#d0d2cc;
+     letter-spacing: 1px;
+     cursor: pointer;
+     
+    }
+    form.fa-sharp fa-solid fa-magnifying-glass
+    {
+      padding: 10px 20px;
+      color:#3c4c24;
+      align-items: center;
+    }
+
+    
+    .icon-container {
+      display: flex; /* This makes it a flex container */
+      align-items: center; /* Aligns items vertically */
+      padding: 10px 20px;
+      color: #3c4c24;
+  }
+  .footer {
+    text-align: center;
+    background-color: #3c4c24;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
